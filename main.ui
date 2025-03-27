@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>分类</string>
+    </property>
+    <addaction name="action"/>
+    <addaction name="action_2"/>
+    <addaction name="action_KNN_C"/>
+    <addaction name="action_4"/>
+   </widget>
+   <widget class="QMenu" name="menu_2">
+    <property name="title">
+     <string>回归</string>
+    </property>
+    <addaction name="action_5"/>
+    <addaction name="action_KNN_R"/>
+    <addaction name="action_3"/>
+   </widget>
+   <widget class="QMenu" name="menu_3">
+    <property name="title">
+     <string>聚类</string>
+    </property>
+    <addaction name="actionKmeans"/>
+    <addaction name="action_DBSCAN"/>
+   </widget>
+   <widget class="QMenu" name="menu_4">
+    <property name="title">
+     <string>降维</string>
+    </property>
+    <addaction name="action_6"/>
+    <addaction name="action_SVD"/>
+   </widget>
+   <widget class="QMenu" name="menu_5">
+    <property name="title">
+     <string>工具</string>
+    </property>
+    <addaction name="action_7"/>
+   </widget>
+   <widget class="QMenu" name="menu_6">
+    <property name="title">
+     <string>帮助</string>
+    </property>
+    <addaction name="action_8"/>
+   </widget>
+   <widget class="QMenu" name="menu_7">
+    <property name="title">
+     <string>决策树</string>
+    </property>
+    <addaction name="action_DecisionTree_Classify"/>
+    <addaction name="action_DecisionTree_Regression"/>
+   </widget>
+   <addaction name="menu"/>
+   <addaction name="menu_2"/>
+   <addaction name="menu_3"/>
+   <addaction name="menu_4"/>
+   <addaction name="menu_7"/>
+   <addaction name="menu_5"/>
+   <addaction name="menu_6"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="action">
+   <property name="text">
+    <string>逻辑回归</string>
+   </property>
+  </action>
+  <action name="action_2">
+   <property name="text">
+    <string>朴素贝叶斯</string>
+   </property>
+  </action>
+  <action name="action_4">
+   <property name="text">
+    <string>退出</string>
+   </property>
+  </action>
+  <action name="action_5">
+   <property name="text">
+    <string>线性回归</string>
+   </property>
+  </action>
+  <action name="action_6">
+   <property name="text">
+    <string>主成分分析</string>
+   </property>
+  </action>
+  <action name="action_7">
+   <property name="text">
+    <string>简易计算器</string>
+   </property>
+  </action>
+  <action name="action_8">
+   <property name="text">
+    <string>关于</string>
+   </property>
+  </action>
+  <action name="actionKmeans">
+   <property name="text">
+    <string>Kmeans</string>
+   </property>
+  </action>
+  <action name="action_KNN_C">
+   <property name="text">
+    <string>KNN</string>
+   </property>
+  </action>
+  <action name="action_KNN_R">
+   <property name="text">
+    <string>KNN</string>
+   </property>
+  </action>
+  <action name="action_DBSCAN">
+   <property name="text">
+    <string>DBSCAN</string>
+   </property>
+  </action>
+  <action name="action_DecisionTree_Classify">
+   <property name="text">
+    <string>分类</string>
+   </property>
+  </action>
+  <action name="action_DecisionTree_Regression">
+   <property name="text">
+    <string>回归</string>
+   </property>
+  </action>
+  <action name="action_SVD">
+   <property name="text">
+    <string>SVD</string>
+   </property>
+  </action>
+  <action name="action_3">
+   <property name="text">
+    <string>梯度下降法</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
